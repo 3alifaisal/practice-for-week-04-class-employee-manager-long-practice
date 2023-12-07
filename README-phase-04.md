@@ -35,9 +35,9 @@ console.log(donny.calculateBonus(0.15)); // => 12750
 
 ## Phase4b
 
-To calculate a `Manager`'s bonus you must sum the salaries of each `employee`
-in their `employees` array. You must also take into account whether each
-`employee` is an instance of an `Employee`, in which case simply add their
+To calculate a `Manager`'s bonus you must sum the salaries of each `employee`           // instaneOf Employee else instanceOf Manager call the function agg
+in their `employees` array. You must also take into account whether each                // _ means private this should be done in the managers class 
+`employee` is an instance of an `Employee`, in which case simply add their              // sum variable/ if employee instanceOf manager 
 `salary` to a sum. If they are a `Manager` you must then process each of their
 employees, and so on. 
 
